@@ -10,13 +10,14 @@ body{
     align-items: center;
     justify-content: center;
     height: 100vh;
+    
 }
 .container{
     background-color: hsl(217, 54%, 11%);
     max-width: 1440px;
     min-width: 375px;
     margin: 0 auto;
-    margin-top: 150px;
+    
 }
 .card-container{
     width: 320px;
