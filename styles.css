@@ -43,7 +43,7 @@ body{
 }
 
 .nft-img::after {
-    background-color: hsl(178, 100%, 50%);
+    background-color: hsl(178, 100%, 50%, 0.5);
     content: url(./images/icon-view.svg);
     position: absolute;
     inset: 0;
