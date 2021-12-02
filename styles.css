@@ -52,7 +52,7 @@ body{
     align-items:center;
     opacity: 0;
 }
-nft-img:hover::after { 
+.nft-img:hover::after { 
     opacity: 1;
 }
 
