@@ -95,11 +95,11 @@ body{
 .heading{
     color: hsl(0, 0%, 100%);
     margin-bottom: 15px;
-    cursor: pointer;
 }
 .sub-heading{
     color: hsl(215, 19%, 40%);
     font-weight: 600;
+    
     margin-bottom: 15px;
 }
 .stats{
@@ -145,3 +145,13 @@ body{
     font-weight: 600;
 }
 
+.nft-img:hover{
+    opacity: 0.2;
+    
+}
+.heading:hover{
+    color: hsl(178, 100%, 50%);
+}
+.white-text:hover{
+    color: hsl(178, 100%, 50%);
+}
