@@ -36,11 +36,11 @@ body{
 .heading{
     color: hsl(0, 0%, 100%);
     margin-bottom: 15px;
+    cursor: pointer;
 }
 .sub-heading{
     color: hsl(215, 19%, 40%);
     font-weight: 600;
-    
     margin-bottom: 15px;
 }
 .stats{
@@ -84,10 +84,34 @@ body{
     color: hsl(215, 19%, 40%);
     font-weight: 600;
 }
-.nft-img:hover{
-    opacity: 0.2;
+.nft-img {
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.nft-img::after {
+    background-color: hsla(178, 100%, 50%, 0.5);
+    content: url(./images/icon-view.svg);
+    position: absolute;
+    inset: 0;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    opacity: 0;
+}
+
+.nft-img:hover::after { 
+    opacity: 1;
     
 }
+
+.nft-img img {
+    width: 100%;
+    display: block;
+}
+
 .heading:hover{
     color: hsl(178, 100%, 50%);
 }
